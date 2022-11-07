@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100;200;300;500;800&display=swap");
 
 body {
-  background-color: #919191;
+  background-color: #2d2d2d;
 }
 
 #blod_header {
@@ -21,8 +21,7 @@ body {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 10px;
-  border-top: 10px solid black;
-  border-bottom: 10px solid black;
+
   margin-right: 50px;
   margin-left: 50px;
 }
@@ -32,6 +31,7 @@ h2 {
   font-weight: 800;
   font-size: 40px;
   text-align: center;
+  color: lightgrey;
 }
 
 #intro {
@@ -42,6 +42,7 @@ p {
   font-family: "Grenze Gotisch";
   font-weight: 400;
   font-size: 25px;
+  color: lightgrey;
 }
 
 #download {
@@ -51,10 +52,10 @@ p {
 }
 
 button {
-  background-color: black;
+  background-color: red;
   margin: 30px;
   padding: 30px;
-  color: white;
+  color: #2d2d2d;
   font-family: "Grenze Gotisch";
   font-weight: 800;
   font-size: 30px;
@@ -62,8 +63,9 @@ button {
 }
 
 button:hover {
-  background-color: red;
+  background-color: darkred;
   border: none;
+  color: red;
 }
 
 #div_merch {
